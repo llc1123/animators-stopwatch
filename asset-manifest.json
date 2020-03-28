@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/animators-stopwatch/static/css/main.5f361e03.chunk.css",
+    "main.js": "/animators-stopwatch/static/js/main.a330391a.chunk.js",
+    "main.js.map": "/animators-stopwatch/static/js/main.a330391a.chunk.js.map",
+    "runtime-main.js": "/animators-stopwatch/static/js/runtime-main.d84ebbaf.js",
+    "runtime-main.js.map": "/animators-stopwatch/static/js/runtime-main.d84ebbaf.js.map",
+    "static/js/2.98f59444.chunk.js": "/animators-stopwatch/static/js/2.98f59444.chunk.js",
+    "static/js/2.98f59444.chunk.js.map": "/animators-stopwatch/static/js/2.98f59444.chunk.js.map",
+    "index.html": "/animators-stopwatch/index.html",
+    "precache-manifest.895e0ea291874f5009c6a1040e8a8862.js": "/animators-stopwatch/precache-manifest.895e0ea291874f5009c6a1040e8a8862.js",
+    "service-worker.js": "/animators-stopwatch/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/animators-stopwatch/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.98f59444.chunk.js.LICENSE.txt": "/animators-stopwatch/static/js/2.98f59444.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/animators-stopwatch/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d84ebbaf.js",
+    "static/js/2.98f59444.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.a330391a.chunk.js"
+  ]
+}

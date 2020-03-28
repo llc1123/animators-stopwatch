@@ -85,17 +85,17 @@ function App() {
       <div className="content" >
         <div className="upper">
           <div className="left">
-            <div className="time">
+            <code className="time">
               {getMinute()}:{getSecond()}.{getMilli()}
-            </div>
+            </code>
             
-            <div className="frame">
+            <code className="frame">
               {getMinute()}:{getSecond()}+{getFrame()}
-            </div>
+            </code>
 
-            <div className="frames">
+            <code className="frames">
               {getFrames()}
-            </div>
+            </code>
           </div>
           <div className="right">
             <div className="text">FPS:</div>

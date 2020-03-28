@@ -15,9 +15,15 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+      env: # Or as an environment variable
+        DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
     - name: Install Packages
       run: yarn install
     - name: Deploy to GH Pages
-      run: yarn run deploy
+      run: |
+        git config --global user.email "i@llc.moe"
+        git config --global user.name "粒粒橙"
+        git remote set-url origin https://$DEPLOY_TOKEN@github.com/llc1123/animators-stopwatch.git
+        yarn run deploy
     - name: Updating Domain
       run: echo "Update domain"

@@ -1,0 +1,64 @@
+.App {
+  max-width: 800px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.upper {
+  display: flex;
+  align-items: flex-end;
+}
+
+.left {
+  flex: 1;
+  font-size: 30px;
+  line-height: 1;
+  font-family: monospace;
+}
+
+input {
+  width: 35px;
+  font-size: 15px;
+}
+
+.divider {
+  width: 100%;
+  border: 1px solid #dcdcdc;
+  margin: 10px 0;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  border-radius: 2px;
+  padding: 0 8px;
+  font-size: 11px;
+  text-align: center;
+  line-height: 27px;
+  height: 27px;
+  font-weight: bold;
+  width: 80px;
+  cursor: pointer;
+}
+
+.start {
+  border: 1px solid #3079ed;
+  background-image: linear-gradient(0deg ,#4d90fe,#4787ed);
+  margin-right: 10px;
+  color: white;
+}
+
+.reset {
+  border: 1px solid #dcdcdc;
+  background-image: linear-gradient(0deg ,#f5f5f5, #f1f1f1 );
+  color: #555;
+}

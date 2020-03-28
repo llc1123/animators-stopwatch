@@ -24,8 +24,4 @@ jobs:
         git config --global user.email "i@llc.moe"
         git config --global user.name "粒粒橙"
         git remote set-url origin https://$DEPLOY_TOKEN@github.com/llc1123/animators-stopwatch.git
-        echo "TOKEN:"
-        echo "$DEPLOY_TOKEN"
         yarn run deploy
-    - name: Updating Domain
-      run: echo "Update domain"

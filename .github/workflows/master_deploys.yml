@@ -19,7 +19,7 @@ jobs:
       run: yarn install
     - name: Deploy to GH Pages
       env:
-        DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+        DEPLOY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.email "i@llc.moe"
         git config --global user.name "粒粒橙"
